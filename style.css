@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+
+body
+{
+    font-family: 'Chela One', cursive;
+    background-image: url(https://img.freepik.com/premium-photo/background-image-vibrant-rainbow-flag-paint-with-smudges-generative-ai_786587-5370.jpg);
+    background-size: cover;
+}
+
+.container
+{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.logo
+{
+    font-size:x-large;
+    justify-content: center;
+}
+
+.button
+{
+    background-color: chartreuse;
+    color: black;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.9cm;
+    padding: 10px 15px;
+    font-weight: 800;
+}
+
+input
+{
+    width: 150px;
+    text-align: center;
+    font-size: 2em;
+    height: 2em;
+    margin: 30px;
+}
+
+#input-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#submit
+{
+    margin-left: 200px;
+}
+
+#message
+{
+    display: none;
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.won
+{
+    justify-content: center;
+}
+.win
+{
+    font-size: 100px;
+    color: blueviolet;
+}
+
+.loss
+{
+    justify-content: center;
+}
+
+.lose
+{
+    font-size: 100px;
+    color: blueviolet;
+}
